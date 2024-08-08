@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Etc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{34bb1fb6-4c2a-444e-844a-883ebaa14cef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Api">
+      <UniqueIdentifier>{5e4c455e-2963-43b8-b1e5-cad39a91c574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine\Timer">
+      <UniqueIdentifier>{625a6f1a-569e-4dd8-ad71-dca52cb73ba3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{0360deaa-cf25-45d7-9eeb-2b05cee5dd6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{edf7de7a-0f28-43bf-a812-e0337545d173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Monster">
+      <UniqueIdentifier>{efaafee7-7711-487c-acd6-6bd7a76c705c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Block">
+      <UniqueIdentifier>{d2c1bcf7-3fb6-4f33-8628-c9cad535441d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Manager">
+      <UniqueIdentifier>{185c5f1c-109f-4bac-ae31-400f50477835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\IngameUI">
+      <UniqueIdentifier>{ec825a36-ae9e-4374-9dcc-6254908f921c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Map">
+      <UniqueIdentifier>{703b1b30-ca09-460d-b553-547cadf46286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\TitleUI">
+      <UniqueIdentifier>{4155771f-43e0-4971-92bc-d277f7722713}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Stage">
+      <UniqueIdentifier>{68e3b66e-e91f-4a64-aa96-2c19a0e26389}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Exit">
+      <UniqueIdentifier>{1e767d76-85a3-4d92-84f1-1e5cedd73ebd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="List">
+      <UniqueIdentifier>{035ef024-7112-4ea8-93e0-6fadfe568ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{b6dbad7c-23e3-48c9-876e-966b7b184ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio\BasicModule">
+      <UniqueIdentifier>{8a551645-5974-420f-a642-4633401ae67b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\PopUpBottomUI">
+      <UniqueIdentifier>{983dfb6c-37e3-464d-b138-f4f4f401654a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="type.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Win32Api.h">
+      <Filter>Api</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerHandler.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerHandlerList.h">
+      <Filter>Engine\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="vmath.h">
+      <Filter>Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScenes.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="HBITMAPList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="StartBtn.h">
+      <Filter>Game\TitleUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicMonster.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterState.h">
+      <Filter>Game\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor1.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Block1.h">
+      <Filter>Game\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockManager.h">
+      <Filter>Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterManager.h">
+      <Filter>Game\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="StageStartBtn.h">
+      <Filter>Game\IngameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="StageStopBtn.h">
+      <Filter>Game\IngameUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstructorList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>Game\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Exit.h">
+      <Filter>Game\Exit</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceList.h">
+      <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="audioModule.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="dr_wav.h">
+      <Filter>Audio\BasicModule</Filter>
+    </ClInclude>
+    <ClInclude Include="miniaudio.h">
+      <Filter>Audio\BasicModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor2.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Floor3.h">
+      <Filter>Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="PopUpBottomUI.h">
+      <Filter>Game\PopUpBottomUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32api.c">
+      <Filter>Api</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.c">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerHandler.c">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerHandlerList.c">
+      <Filter>Engine\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="vmath.c">
+      <Filter>Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics.c">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScenes.c">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectList.c">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="IntegerList.c">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="HBITMAPList.c">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="StartBtn.c">
+      <Filter>Game\TitleUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Tween.c">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Tween.h">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.c">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicMonster.c">
+      <Filter>Game\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor1.c">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.c">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Block1.c">
+      <Filter>Game\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockManager.c">
+      <Filter>Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterManager.c">
+      <Filter>Game\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="StageStartBtn.c">
+      <Filter>Game\IngameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="StageStopBtn.c">
+      <Filter>Game\IngameUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructorList.c">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.c">
+      <Filter>Game\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Exit.c">
+      <Filter>Game\Exit</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceList.c">
+      <Filter>List</Filter>
+    </ClCompile>
+    <ClCompile Include="audioModule.c">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor2.c">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Floor3.c">
+      <Filter>Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="PopUpBottomUI.c">
+      <Filter>Game\PopUpBottomUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CheckInPlz.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resources</Filter>
+    </Image>
+    <Image Include="CheckInPlz.ico">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stage1.CSV">
+      <Filter>Resources</Filter>
+    </None>
+  </ItemGroup>
+</Project>
